@@ -1,7 +1,7 @@
 {
-    "name": "Micheal Weaver",
-    "logo_name": "micheal-weaver",
-    "role": "Front-end developer",
+    "name": "Seraphin Haeuptli",
+    "logo_name": "Seraphin-Haeuptli",
+    "role": "Full-stack developer",
     "about": {
         "sections": {
             "professional-info": {
@@ -10,36 +10,36 @@
                 "info": {
                     "experience": {
                         "title": "experience",
-                        "description": "<br>Over the past 5 years, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<strong>Freelance Web Development (Current | Remote & Switzerland)</strong><br>Offering professional web development services while building real-world experience. I create responsive, modern websites using HTML, CSS, and JS, implementing client requirements from concept to deployment.<br><br><strong>AI-Assisted Development</strong><br>Leveraging AI models as collaborative partners to accelerate learning and code generation while maintaining deep understanding."
                     },
                     "hard-skills": {
                         "title": "hard-skills",
-                        "description": "<br>As a front-end developer, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<strong>Core Web Development:</strong> HTML5 (Proficient), CSS3 (Proficient), JavaScript (Intermediate).<br><br><strong>Frontend Frameworks:</strong> React (Learning), Tailwind CSS (Learning).<br><br><strong>Backend & Tools:</strong> Java (Beginner), Linux, Git, VS Code.<br><br><strong>AI workflows:</strong> Prompt Engineering & AI Collaboration."
                     },
                     "soft-skills": {
                         "title": "soft-skills",
-                        "description": "<br>I bring more than Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<strong>Communication & Customer Focus:</strong> Clear articulation of technical concepts, prioritizing client satisfaction, and translation of user needs into solutions.<br><br><strong>Learning & Adaptability:</strong> Self-directed learning, rapid skill acquisition, and embracing challenges as growth opportunities.<br><br><strong>Work Ethic:</strong> Commitment to quality, attention to detail, and reliability."
                     }
                 }
             },
             "personal-info": {
                 "title": "personal-info",
                 "icon": "icons/info-personal.svg",
-                "info": { 
+                "info": {
                     "bio": {
                         "title": "bio",
-                        "description": "<br> About me <br> I have 5 years of experience in web development lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  officia deserunt mollit anim id est laborum."
+                        "description": "I'm a driven high school student investing heavily in my future through technology and continuous learning. While I'm early in my professional journey, I combine genuine passion for tech with the discipline I've developed through sports to build a strong foundation in web development.<br><br>I approach every project as both a service opportunity and a chance to expand my capabilities."
                     },
                     "interests": {
                         "title": "interests",
-                        "description": "<br>I am constantly learning and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<strong>Active Development:</strong> Focusing on JavaScript mastery, React development, and backend integration.<br><br><strong>Future Goals:</strong> Proficiency in full-stack development, acceptance to ETH Zurich Computer Science program, and building a comprehensive portfolio."
                     },
                     "education": {
                         "title": "education",
-                        "description": "<br>I have always been passionate about lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "description": "<strong>Currently in High School</strong><br>Preparing for Computer Science at ETH Zurich.<br><br>Actively investing in technical skills development outside formal education. Balancing academics with self-directed learning in web development. Building a foundation for academic and professional success in the tech field.",
                         "files": {
-                            "high-school": "I have been in 'Las viñas'...",
-                            "university": "The university..."
+                            "high-school": "<br>I'm currently attending NKSA high school in Switzerland. Which is an upper class high school.Focused on techinical subjects like Math, Physics, Chemistry and Computer Science.<br",
+                            "university": "<br>The university i want to go to is ETH Zurich as it offers one of the best education in Computer Science. After i finish high school i want to sign up as fast as possible, as we in switzerland have to go to the army for 1 year after highschool.<br"
                         }
                     }
                 }
@@ -50,11 +50,11 @@
                 "info": {
                     "sports": {
                         "title": "sports",
-                        "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<strong>Athletic Mindset Applied to Development:</strong><br>Discipline: Treating coding like training.<br>Persistence: Pushing through frustration and bugs.<br>Resilience: Bouncing back from setbacks quickly.<br>Continuous Improvement: Always seeking to level up skills."
                     },
-                    "favorite-games": {
-                        "title": "favorite-games",
-                        "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "favorite-sports": {
+                        "title": "favorite-sports",
+                        "description": "<br>I am a passionate athlete with interest in many sports like tennis, volleyball and fencing. <br>In my free time I also like to meet Friends and hang out. <br>"
                     }
                 }
             }
@@ -64,15 +64,15 @@
         "direct": {
             "title": "contacts",
             "sources": {
-                "email": "user@gmail.com",
-                "phone": "+3598246359"
+                "email": "seraphin@setsail.ch",
+                "phone": "+41 76 725 75 74"
             }
         },
         "social": {
             "github": {
                 "title": "Github profile",
                 "url": "https://github.com/",
-                "user": "username"
+                "user": "SeraphinHaeuptli"
             },
             "facebook": {
                 "title": "Facebook profile",
@@ -89,9 +89,9 @@
             "title": "find-me-also-in",
             "sources": {
                 "youtube": {
-                    "title": "YouTube channel",
-                    "url": "https://www.youtube.com/",
-                    "user": "username"
+                    "title": "Openprocessing profile",
+                    "url": "https://openprocessing.org/",
+                    "user": "user/540573#activity"
                 },
                 "gurushots": {
                     "title": "GuruShots profile",
@@ -101,7 +101,7 @@
                 "instagram": {
                     "title": "Instagram account",
                     "url": "https://instagram.com/",
-                    "user": "username"
+                    "user": "de_seraa"
                 },
                 "twitch": {
                     "title": "Twitch profile",
@@ -117,45 +117,57 @@
     },
     "projects": {
         "1": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ui-animations2.png",
-            "tech": ["Flutter"],
-            "url": "https://github.com/"
+            "title": "Crypto-Project",
+            "description": "A crypto project to understand how crypto works.",
+            "img": "/images/projects/digital-bitcoin-currency-symbol-vector-design_1017-10540.avif",
+            "tech": [
+                "Cursor"
+            ],
+            "url": "https://github.com/SeraphinHaeuptli/The-Crypto-project"
         },
         "2": {
-            "title": "_ai-resources",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ai-resources.png",
-            "tech": ["Gatsby"],
-            "url": "https://github.com/"
+            "title": "Spline",
+            "description": "A 3D project to utilize Spline.",
+            "img": "/images/projects/spline.jpeg",
+            "tech": [
+                "Spline"
+            ],
+            "url": "https://github.com/SeraphinHaeuptli/Portfolio"
         },
         "3": {
-            "title": "_worldmap",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "Worldmap",
+            "description": "A worldmap project to understand how to use Angular.",
             "img": "/images/projects/worldmap.png",
-            "tech": ["Angular"],
+            "tech": [
+                "Angular"
+            ],
             "url": "https://github.com/"
         },
         "4": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "UI-Animations",
+            "description": "A UI animations project to understand how to use React.",
             "img": "/images/projects/ui-animations.png",
-            "tech": ["React"],
+            "tech": [
+                "React"
+            ],
             "url": "https://github.com/"
         },
         "5": {
-            "title": "_tetris-game",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "Tetris-Game",
+            "description": "A tetris game project to understand how to use Flutter.",
             "img": "/images/projects/tetris-game.png",
-            "tech": ["React"],
+            "tech": [
+                "Flutter"
+            ],
             "url": "https://github.com/"
         },
         "6": {
-            "title": "_ethereum",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "title": "Ethereum",
+            "description": "A ethereum project to understand how to use Vue.",
             "img": "/images/projects/ethereum.png",
-            "tech": ["Vue"],
+            "tech": [
+                "Vue"
+            ],
             "url": "https://github.com/"
         }
     }
