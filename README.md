@@ -7,11 +7,6 @@
 <div align="center">
 </div>
 
-<p align="center">
-  <a href="" target="_blank">
-    <img src="./public/images/demo-share.png" />
-  </a>
-</p>
 
 ## 🚨 Forking this repo
 
