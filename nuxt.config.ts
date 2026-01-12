@@ -34,6 +34,7 @@ export default defineNuxtConfig({
         { hid: 'og:image', property: 'og:image', content: 'demo-share.jpg' },
         { hid: 'og:url', property: 'og:url', content: 'https://developer-portfolio-v1.netlify.app/' },
         { name: 'theme-color', content: '#010C15' },
+        { name: 'google-site-verification', content: 'AeefdgM2q5N2Xwv6-WY5bEudmnLyXt03rN75iTs-yRU' },
         // ...
       ],
       link: [
@@ -56,7 +57,7 @@ export default defineNuxtConfig({
       '~/components',
     ],
   },
-  
+
   /**
    * * Tailwind CSS Config
    * Options: https://tailwindcss.nuxt.dev/getting-started/options/
