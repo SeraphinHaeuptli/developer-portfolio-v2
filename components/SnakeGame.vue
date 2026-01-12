@@ -336,21 +336,25 @@
       if (this.gameStarted) {
         switch (event.keyCode) {
           case 37:
+          case 65: // A
             if (this.direction !== "right") {
               this.direction = "left";
             }
             break;
           case 38:
+          case 87: // W
             if (this.direction !== "down") {
               this.direction = "up";
             }
             break;
           case 39:
+          case 68: // D
             if (this.direction !== "left") {
               this.direction = "right";
             }
             break;
           case 40:
+          case 83: // S
             if (this.direction !== "up") {
               this.direction = "down";
             }

@@ -135,13 +135,13 @@
             "url": "https://github.com/SeraphinHaeuptli/Portfolio"
         },
         "3": {
-            "title": "Worldmap",
-            "description": "A worldmap project to understand how to use Angular.",
-            "img": "/images/projects/worldmap.png",
+            "title": "TRYHACKME",
+            "description": "A course to understand how pentester think and how to break into a system.",
+            "img": "/images/projects/tryhackme.png",
             "tech": [
-                "Angular"
+                "TryHackMe"
             ],
-            "url": "https://github.com/"
+            "url": "https://tryhackme.com/"
         },
         "4": {
             "title": "UI-Animations",
