@@ -24,18 +24,38 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en', // App language
       },
-      title: siteTitle, // App window nav title
+      title: 'Seraphin Haeuptli | Full-stack Developer Portfolio', // App window nav title
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'A awesome developer portfolio design.' },
-        { hid: 'og:title', property: 'og:title', content: siteTitle },
-        { hid: 'og:description', property: 'og:description', content: 'A awesome developer portfolio design.' },
-        { hid: 'og:image', property: 'og:image', content: 'demo-share.jpg' },
-        { hid: 'og:url', property: 'og:url', content: 'https://developer-portfolio-v1.netlify.app/' },
+        { hid: 'description', name: 'description', content: 'Seraphin Haeuptli - Full-stack developer based in Zürich. Portfolio showcasing web development projects using React, Node.js, and modern JavaScript frameworks.' },
+        { hid: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:url', property: 'og:url', content: 'https://seraphinhaeuptli.com/' },
+        { hid: 'og:title', property: 'og:title', content: 'Seraphin Haeuptli | Full-stack Developer Portfolio' },
+        { hid: 'og:description', property: 'og:description', content: 'Full-stack developer portfolio - View my projects and skills in React, Node.js, and modern web development.' },
+        { hid: 'og:image', property: 'og:image', content: 'https://seraphinhaeuptli.com/og-image.jpg' },
         { name: 'theme-color', content: '#010C15' },
         { name: 'google-site-verification', content: 'AeefdgM2q5N2Xwv6-WY5bEudmnLyXt03rN75iTs-yRU' },
-        // ...
+      ],
+      script: [
+        {
+          type: 'application/ld+json',
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Seraphin Haeuptli",
+            "jobTitle": "Full-stack Developer",
+            "url": "https://seraphinhaeuptli.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Zürich",
+              "addressCountry": "CH"
+            },
+            "sameAs": [
+              "https://github.com/SeraphinHaeuptli"
+            ]
+          })
+        }
       ],
       link: [
         { rel: 'manifest', href: 'pwa/manifest.json' },
