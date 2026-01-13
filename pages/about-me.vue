@@ -285,6 +285,11 @@ export default {
    * In setup we can define the data we want to use in the component before the component is created.
    */
   setup() {
+    useHead({
+      meta: [
+        { name: 'robots', content: 'noindex' }
+      ]
+    })
     return {
       config: DevConfig
     }

@@ -78,6 +78,12 @@
 import { ref } from 'vue'
 import DevConfig from '~/developer.json';
 
+useHead({
+  meta: [
+    { name: 'robots', content: 'noindex' }
+  ]
+})
+
 const config = ref(DevConfig)
 
 const techs = ['React', 'HTML', 'Cursor', 'Vue', 'Angular', 'Spline', 'Flutter', 'TryHackMe']

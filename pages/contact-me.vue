@@ -90,6 +90,11 @@ export default {
         }
     },
     setup() {
+        useHead({
+            meta: [
+                { name: 'robots', content: 'noindex' }
+            ]
+        })
         return {
             contact: DevConfig.contacts,
         }
