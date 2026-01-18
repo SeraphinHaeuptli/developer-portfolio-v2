@@ -41,13 +41,13 @@ export default {
 <style>
 .app-wrapper {
   min-height: 100vh;
-  min-height: -webkit-fill-available; /* Safari/Mac fix */
-  display: flex;
-  flex-direction: column;
+  min-height: -webkit-fill-available;
 }
 
 html, body {
   height: 100%;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 </style>
