@@ -1,7 +1,9 @@
 <template>
-    <div>
+    <div class="app-wrapper">
       <AppHeader />
-      <slot />
+      <main class="flex-grow">
+        <slot />
+      </main>
       <AppFooter />
     </div>
-  </template>
+</template>
