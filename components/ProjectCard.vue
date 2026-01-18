@@ -13,15 +13,15 @@
                 <img v-for="tech in project.tech" :key="tech" :src="'/icons/techs/filled/' + tech + '.svg'" alt="" class="w-6 h-6 mx-1 hover:opacity-75">
                 </div>
                 <img id="showcase" :src="project.img" alt="" class="">
-            </div>
-
-            <div class="pb-8 pt-6 px-6 border-top">
-                <p class="text-menu-text font-fira_retina text-sm mb-5">
-                {{ project.description }}
-                </p>
-                <a id="view-button" :href="project.url" target="_blank" class="text-white font-fira_retina py-2 px-4 w-fit text-xs rounded-lg">
-                    view-project
-                </a>
+                
+                <div id="project-details" class="pb-6 pt-4 px-4">
+                    <p class="text-menu-text font-fira_retina text-sm mb-5">
+                    {{ project.description }}
+                    </p>
+                    <a id="view-button" :href="project.url" target="_blank" class="text-white font-fira_retina py-2 px-4 w-fit text-xs rounded-lg">
+                        view-project
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -76,5 +76,25 @@ const { project, key, index } = defineProps(['project', 'key', 'index'])
     padding-inline: 20px;
   }
 }
+#window {
+  max-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
 
+#project-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 18, 33, 0.95);
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#window:hover #project-details {
+  opacity: 1;
+  transform: translateY(0);
+}
 </style>

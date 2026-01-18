@@ -1,7 +1,7 @@
 {
     "name": "Seraphin Haeuptli",
     "logo_name": "Seraphin-Haeuptli",
-    "role": "Full-stack developer",
+    "role": "Junior Developer",
     "about": {
         "sections": {
             "professional-info": {
@@ -77,7 +77,7 @@
             "facebook": {
                 "title": "Facebook profile",
                 "url": "https://facebook.com/",
-                "user": "username"
+                "user": ""
             },
             "twitter": {
                 "title": "Twitter account",
@@ -93,20 +93,10 @@
                     "url": "https://openprocessing.org/",
                     "user": "user/540573#activity"
                 },
-                "gurushots": {
-                    "title": "GuruShots profile",
-                    "url": "https://gurushots.com/",
-                    "user": "username"
-                },
                 "instagram": {
                     "title": "Instagram account",
                     "url": "https://instagram.com/",
                     "user": "de_seraa"
-                },
-                "twitch": {
-                    "title": "Twitch profile",
-                    "url": "https://twitch.com/",
-                    "user": "username"
                 }
             }
         }
@@ -119,7 +109,7 @@
         "1": {
             "title": "Crypto-Project",
             "description": "A crypto project to understand how crypto works.",
-            "img": "/images/projects/digital-bitcoin-currency-symbol-vector-design_1017-10540.avif",
+            "img": "/images/projects/crypto.avif",
             "tech": [
                 "Cursor"
             ],
@@ -127,7 +117,7 @@
         },
         "2": {
             "title": "Spline",
-            "description": "A 3D project to utilize Spline.",
+            "description": "A 3D Design project to learn and utilize Spline as web component.",
             "img": "/images/projects/spline.jpeg",
             "tech": [
                 "Spline"
@@ -146,7 +136,7 @@
         "4": {
             "title": "UI-Animations",
             "description": "A UI animations project to understand how to use React.",
-            "img": "/images/projects/ui-animations.png",
+            "img": "/images/projects/ui.webp",
             "tech": [
                 "React"
             ],
