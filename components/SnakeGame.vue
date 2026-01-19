@@ -331,61 +331,80 @@
       }
     }
   },
-  mounted() {
-    document.addEventListener("keydown", event => {
-      if (this.gameStarted) {
-        switch (event.keyCode) {
-          case 37:
-          case 65: // A
-            if (this.direction !== "right") {
-              this.direction = "left";
-            }
-            break;
-          case 38:
-          case 87: // W
-            if (this.direction !== "down") {
-              this.direction = "up";
-            }
-            break;
-          case 39:
-          case 68: // D
-            if (this.direction !== "left") {
-              this.direction = "right";
-            }
-            break;
-          case 40:
-          case 83: // S
-            if (this.direction !== "up") {
-              this.direction = "down";
-            }
-            break;
-        }
-      } else {
-        switch (event.keyCode) {
-          case 32:
-            if(this.gameOver){
-              this.startAgain();
-            }else {
-              this.startGame();
-            }
-            break;
-        }
+ mounted() {
+  document.addEventListener("keydown", event => {
+    if (this.gameStarted) {
+      switch (event.keyCode) {
+        case 37:
+        case 65: // A
+          if (this.direction !== "right") {
+            this.direction = "left";
+          }
+          document.querySelector('.button-left').classList.add('active');
+          break;
+        case 38:
+        case 87: // W
+          if (this.direction !== "down") {
+            this.direction = "up";
+          }
+          document.querySelector('.button-up').classList.add('active');
+          break;
+        case 39:
+        case 68: // D
+          if (this.direction !== "left") {
+            this.direction = "right";
+          }
+          document.querySelector('.button-right').classList.add('active');
+          break;
+        case 40:
+        case 83: // S
+          if (this.direction !== "up") {
+            this.direction = "down";
+          }
+          document.querySelector('.button-down').classList.add('active');
+          break;
       }
-    });
+    } else {
+      switch (event.keyCode) {
+        case 32:
+          if(this.gameOver){
+            this.startAgain();
+          }else {
+            this.startGame();
+          }
+          break;
+      }
+    }
+  });
 
-    /* window.innerWidth < 1536 ? cellSize = 8 : cellSize = 10; */
-    /* this.food = {
-      x: Math.floor(Math.random() * 24),
-      y: Math.floor(Math.random() * 40)
-    }; */
-    window.onresize = () => {
-      this.render();
-    };
+  // Remove active class when key is released
+  document.addEventListener("keyup", event => {
+    switch (event.keyCode) {
+      case 37:
+      case 65: // A
+        document.querySelector('.button-left').classList.remove('active');
+        break;
+      case 38:
+      case 87: // W
+        document.querySelector('.button-up').classList.remove('active');
+        break;
+      case 39:
+      case 68: // D
+        document.querySelector('.button-right').classList.remove('active');
+        break;
+      case 40:
+      case 83: // S
+        document.querySelector('.button-down').classList.remove('active');
+        break;
+    }
+  });
 
+  window.onresize = () => {
     this.render();
+  };
 
-
-  }
+  this.render();
+}
 };
 </script>
 
@@ -563,6 +582,11 @@
   padding-block: 6px;
   border: 2px solid white;
   border-radius: 0.5rem; /* 8px */
+}
+#console-button.active {
+  background-color: #010c15d8;
+  box-shadow: #43D9AD 0 0 10px;
+  transform: scale(0.95);
 }
 }
 </style>
