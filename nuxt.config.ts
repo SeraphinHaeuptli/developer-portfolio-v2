@@ -58,8 +58,8 @@ export default defineNuxtConfig({
         }
       ],
       link: [
-        { rel: 'icon', type: 'public/x-icon', href: '/favicon.ico' },  // ← Add this line here
-        { rel: 'manifest', href: 'pwa/manifest.json' },
+        { rel: 'icon', type: 'public/x-icon', href: 'pwa/icons/favicon.ico' },
+        { rel: 'manifest', href: 'pwa/icons/site.webmanifest' },
         { rel: 'apple-touch-icon', href: 'pwa/icons/apple-touch-icon.png' },
       ],
     },
