@@ -33,8 +33,7 @@ main.page {
 }
 
 #__nuxt {
-  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.1) 0%, #000000 70%, #000000 100%);
-  @apply flex flex-col justify-between;
+  @apply bg-oled-black flex flex-col justify-between;
   border-radius: 7px;
   border: 1px solid #1E2D3D;
   height: 100%;

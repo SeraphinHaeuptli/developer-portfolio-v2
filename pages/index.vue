@@ -2,8 +2,6 @@
   	<main v-if="!loading" id="hello">
 
     	<!-- gradients -->
-    	<div class="css-blurry-gradient-blue"></div>
-    	<div class="css-blurry-gradient-green"></div>
 
 		<section class="hero">
 		
@@ -187,32 +185,6 @@ function handleResize() {
   display: none;
 }
 
-.css-blurry-gradient-blue {
-  position: fixed;
-  bottom: 25%;
-  right: 5%;
-  width: 300px;
-  height: 300px;
-	border-radius: 0% 0% 50% 50%;
-  rotate: 10deg;
-	filter: blur(70px);
-  background: radial-gradient(circle at 50% 50%,rgba(67, 217, 173, 1), rgba(76, 0, 255, 0));
-  opacity: 0.7;
-  z-index: 10;
-}
-
-.css-blurry-gradient-green {
-  position: absolute;
-  top: 20%;
-  right: 30%;
-  width: 300px;
-  height: 300px;
-	border-radius: 0% 50% 0% 50%;
-	filter: blur(70px);
-  background: radial-gradient(circle at 50% 50%,rgba(67, 217, 173, 1), rgba(76, 0, 255, 0));
-  opacity: 0.7;
-  z-index: 10;
-}
 
 #info {
   font-size: 14px;
@@ -298,31 +270,6 @@ function handleResize() {
 
 /* LG */
 
-@media (min-width: 1024px) {
-
-  .css-blurry-gradient-blue {
-    position: fixed;
-    bottom: 10%;
-    right: 10%;
-    width: 500px;
-    height: 500px;
-    opacity: 0.8;
-    border-radius: 100% 50% 100% 0%;
-  }
-
-  .css-blurry-gradient-green {
-    position: fixed;
-    top: 10%;
-    right: 35%;
-    filter: blur(100px);
-    rotate: 10deg;
-    width: 400px;
-    height: 400px;
-    opacity: 0.5;
-    border-radius: 100% 0% 0% 0%;
-    rotate: 20deg;
-  }
-}
 
 @media (min-width: 1920px){
 	#hello {
