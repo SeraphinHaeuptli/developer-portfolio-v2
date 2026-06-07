@@ -52,9 +52,9 @@
                         "title": "sports",
                         "description": "<strong>Athletic Mindset Applied to Development:</strong><br>Discipline: Treating coding like training.<br>Persistence: Pushing through frustration and bugs.<br>Resilience: Bouncing back from setbacks quickly.<br>Continuous Improvement: Always seeking to level up skills."
                     },
-                    "favorite-sports": {
-                        "title": "favorite-sports",
-                        "description": "<br>I am a passionate athlete with interest in many sports like tennis, volleyball and fencing. <br>In my free time I also like to meet Friends and hang out. <br>"
+                    "favorite-hobbys": {
+                        "title": "favorite-hobbys",
+                        "description": "<br>I am a passionate athlete with interest in many sports like tennis, volleyball and fencing. <br>In my free time I also like to meet Friends and hang out.<br>Another hobby i picked up in the lasts months is photography, using my newly bought Sony a6400 i try to capture the world how i see it <br>"
                     }
                 }
             }
@@ -102,8 +102,8 @@
         }
     },
     "gists": {
-        "1": "83861a67e377633ee8368df01ee3a355",
-        "2": "694c1f32332788a2ac7f37b09e5aa40e"
+        "1": "998532ef44e7fa8da5caa385e68eb067",
+        "2": "02705b18c7fb48b33dd99fecf749910a"
     },
     "projects": {
         "1": {
@@ -152,13 +152,13 @@
             "url": "https://github.com/"
         },
         "6": {
-            "title": "Ethereum",
-            "description": "A ethereum project to understand how to use Vue.",
-            "img": "/images/projects/ethereum.png",
+            "title": "Photography",
+            "description": "A photography project to understand how to use a Camera.",
+            "img": "/images/projects/poto.jpg",
             "tech": [
-                "Vue"
+                "Sony"
             ],
-            "url": "https://github.com/"
+            "url": "https://www.instagram.com/de_seraa/"
         }
     }
 }
