@@ -18,13 +18,14 @@ module.exports = {
                 'purple-text': '#81a0fd',
                 'hello-gray': '#84a6c8',
                 'codeline-link': '#E99287',
-                'codeline-tag': '#4D5BCE',
+                'codeline-tag': '#43D9AD',
                 'codeline-name': '#43D9AD',
                 'mobile-menu-blue': '#011627',
                 'placeholder-gray': '#465E77',
                 'greenfy': '#43D9AD',
                 'bluefy-dark': '#011627',
                 'purplefy': '#799ffb',
+                'oled-black': '#000000',
 
             }
         },
@@ -36,6 +37,6 @@ module.exports = {
             fira_semibold: "Fira Code SemiBold",
             fira_bold: "Fira Code Bold",
             fira_variable: "Fira Code Variable",
-          }
+        }
     }
 }

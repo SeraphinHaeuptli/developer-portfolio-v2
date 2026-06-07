@@ -10,7 +10,7 @@ h2 {
 }
 
 html {
-  @apply bg-dark-background;
+  @apply bg-oled-black;
   margin: 30px;
   height: calc(100vh - 60px);
   height: calc(100dvh - 60px);
@@ -20,6 +20,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+  @apply bg-oled-black;
 }
 
 main.page {
@@ -32,9 +33,10 @@ main.page {
 }
 
 #__nuxt {
-  @apply bg-blue-background flex flex-col justify-between;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.1) 0%, #000000 70%, #000000 100%);
+  @apply flex flex-col justify-between;
   border-radius: 7px;
-  border: 1px solid #0c1219;
+  border: 1px solid #1E2D3D;
   height: 100%;
   width: 100%;
 }

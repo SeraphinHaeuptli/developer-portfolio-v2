@@ -131,7 +131,7 @@ function handleResize() {
 #hello .head h2, #hello .head .diple {
   font-size: 32px;
   line-height: 1;
-  color: #4D5BCE;
+  color: #43D9AD;
   font-family: 'Fira Code Retina';
 }
 
@@ -196,8 +196,8 @@ function handleResize() {
 	border-radius: 0% 0% 50% 50%;
   rotate: 10deg;
 	filter: blur(70px);
-  background: radial-gradient(circle at 50% 50%,rgba(77, 91, 206, 1), rgba(76, 0, 255, 0));
-  opacity: 0.5;
+  background: radial-gradient(circle at 50% 50%,rgba(67, 217, 173, 1), rgba(76, 0, 255, 0));
+  opacity: 0.7;
   z-index: 10;
 }
 
@@ -210,7 +210,7 @@ function handleResize() {
 	border-radius: 0% 50% 0% 50%;
 	filter: blur(70px);
   background: radial-gradient(circle at 50% 50%,rgba(67, 217, 173, 1), rgba(76, 0, 255, 0));
-  opacity: 0.5;
+  opacity: 0.7;
   z-index: 10;
 }
 
@@ -306,7 +306,7 @@ function handleResize() {
     right: 10%;
     width: 500px;
     height: 500px;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 100% 50% 100% 0%;
   }
 
