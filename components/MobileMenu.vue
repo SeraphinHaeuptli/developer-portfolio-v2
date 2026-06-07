@@ -2,7 +2,7 @@
   <div id="mobile-menu" class="w-full z-10 lg:hidden">
 
     <!-- header -->
-    <div id="mobile-header" class="w-full h-16 flex justify-between items-center">
+    <div id="mobile-header" class="w-full h-16 flex justify-between items-center sticky top-0 z-50 bg-oled-black">
       <NuxtLink class="text-menu-text font-fira_retina flex h-full items-center mx-5" to="/" @click="goHome()">
         {{ config.logoName }}
       </NuxtLink>

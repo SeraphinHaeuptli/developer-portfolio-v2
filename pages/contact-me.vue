@@ -1,7 +1,7 @@
 <template>
     <main id="contact-me" class="page">
 
-        <div id="mobile-page-title">
+        <div id="mobile-page-title" class="pb-2 pt-4">
             <h2>_contact-me</h2>
         </div>
 
@@ -158,8 +158,8 @@ export default {
 .arrow {
     transition: 0.1s;
     margin-right: 10px;
-    width: 9px;
-    height: 9px;
+    width: 16px;
+    height: 16px;
 }
 
 .submenu {

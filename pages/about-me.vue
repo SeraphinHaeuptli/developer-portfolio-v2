@@ -60,9 +60,9 @@
         <div v-for="section in config.about.sections" :key="section.title">
           
           <!-- section title (mobile) -->
-          <div :key="section.title" :src="section.icon" id="section-content-title" class="flex lg:hidden mb-1" @click="focusCurrentSection(section)">
+          <div :key="section.title" id="section-content-title" class="flex lg:hidden mb-0.5 py-1" @click="focusCurrentSection(section)">
             <img src="/icons/arrow.svg" :id="'section-arrow-' + section.title" alt="" class="section-arrow">
-            <p v-html="section.title" class=" text-white text-sm"></p>
+            <p v-html="section.title" class="text-white text-xs"></p>
           </div>
 
           <!-- folders -->
@@ -260,9 +260,7 @@
 }
 }
 
-.section-arrow {
-  transition: 0.1s;
-}
+/* .section-arrow size and transition defined globally in tailwind.css */
 
 #section-content #contacts {
   padding: 0px 25px;

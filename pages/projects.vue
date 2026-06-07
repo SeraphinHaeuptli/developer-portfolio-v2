@@ -1,14 +1,8 @@
 <template>
   <main class="flex flex-col flex-auto lg:flex-row overflow-hidden">
 
-    <div id="mobile-page-title">
+    <div id="mobile-page-title" class="pb-2 pt-4">
       <h2>_projects</h2>
-    </div>
-
-    <!-- section title (mobile) -->
-    <div id="section-content-title" class="flex lg:hidden" @click="showFilters = !showFilters">
-      <img :class="showFilters ? 'section-arrow rotate-90' : 'section-arrow'" src="/icons/arrow.svg">
-      <span class="font-fira_regular text-white text-sm">projects</span>
     </div>
 
     <div v-if="showFilters" id="filter-menu"
@@ -19,13 +13,11 @@
         <p class="font-fira_regular text-white text-sm">projects</p>
       </div>
 
-      <!-- filter menu -->
-      <nav id="filters" class="w-full flex-col">
-
-        <div v-for="tech in techs" :key="tech" class="flex items-center py-2">
+      <nav id="filters" class="w-full flex lg:flex-col overflow-x-auto no-scrollbar border-bot lg:border-none">
+        <div v-for="tech in techs" :key="tech" class="flex items-center py-2 px-4 flex-shrink-0 lg:px-0">
           <input type="checkbox" :id="tech" @click="filterProjects(tech)">
-          <img :id="'icon-tech-' + tech" :src="'/icons/techs/' + tech + '.svg'" alt="" class="tech-icon w-5 h-5 mx-4">
-          <label :for="tech" :id="'title-tech-' + tech">{{ tech }}</label>
+          <img :id="'icon-tech-' + tech" :src="'/icons/techs/' + tech + '.svg'" alt="" class="tech-icon w-5 h-5 mx-2">
+          <label :for="tech" :id="'title-tech-' + tech" class="whitespace-nowrap">{{ tech }}</label>
         </div>
       </nav>
     </div>

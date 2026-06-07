@@ -69,6 +69,8 @@ main.page {
 }
 
 .section-arrow {
+  width: 16px;
+  height: 16px;
   margin-right: 10px;
   transition: 0.1s;
 }
@@ -78,11 +80,11 @@ main.page {
 @media (max-width: 1024px) {
 
   html {
-    margin: 15px;
+    margin: 0px;
     height: auto;
-    min-height: calc(100vh - 30px);
-    min-height: calc(100dvh - 30px);
-    width: calc(100vw - 30px);
+    min-height: 100vh;
+    min-height: 100dvh;
+    width: 100vw;
   }
 
   #__nuxt {
