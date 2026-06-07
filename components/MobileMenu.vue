@@ -3,9 +3,12 @@
 
     <!-- header -->
     <div id="mobile-header" class="w-full h-16 flex justify-between items-center sticky top-0 z-50 bg-oled-black">
-      <NuxtLink class="text-menu-text font-fira_retina flex h-full items-center mx-5" to="/" @click="goHome()">
-        {{ config.logoName }}
-      </NuxtLink>
+      <div class="flex items-center h-full">
+        <NuxtLink class="text-menu-text font-fira_retina flex h-full items-center mx-5" to="/" @click="goHome()">
+          {{ config.logoName }}
+        </NuxtLink>
+        <div id="lottie-mobile" ref="lottieContainerMobile"></div>
+      </div>
       <img src="/icons/burger.svg" alt="Open menu" v-if="!menuOpen" @click="toggleMobileMenu()"
         class="w-5 h-5 mx-5 my-auto" />
       <img src="/icons/burger-close.svg" alt="Closed menu" v-else @click="toggleMobileMenu()"
@@ -38,13 +41,25 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 
 import DevConfig from '~/developer.json';
 
 const config = ref(DevConfig);
 
 const menuOpen = ref(false);
+const lottieContainerMobile = ref(null);
+
+onMounted(async () => {
+  const lottie = (await import('lottie-web')).default;
+  lottie.loadAnimation({
+    container: lottieContainerMobile.value,
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: '/lottie-logo.json',
+  });
+});
 
 function toggleMobileMenu(){
   menuOpen.value = !menuOpen.value;
@@ -88,5 +103,11 @@ const isActive = (route) => {
 
 #nav-link-mobile.active {
   color: white
+}
+
+#lottie-mobile {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
 }
 </style>

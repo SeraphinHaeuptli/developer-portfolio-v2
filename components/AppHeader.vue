@@ -37,7 +37,6 @@ import config from '~/developer.json';
 const isActive = (route) => {
   return route === route;
 }
-
 </script>
 
 <script>
@@ -88,6 +87,8 @@ export default {
   height: 45px;
   font-size: 13px;
 }
+
+
 
 </style>
 
