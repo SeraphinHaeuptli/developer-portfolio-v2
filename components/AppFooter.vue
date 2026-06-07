@@ -7,8 +7,8 @@
                 find me in:
             </span>
             <div id="social-icons" class="flex">
-                <NuxtLink to="https://openprocessing.org/user/540573#activity" target="_blank" class="flex justify-center items-center">
-                    <img src="/icons/techs/openpro.png" alt="openprocessing"/>
+                <NuxtLink to="https://www.instagram.com/de_seraa/" target="_blank" class="flex justify-center items-center">
+                    <img src="/icons/insta.svg" alt="instagram"/>
                 </NuxtLink>
                 <NuxtLink to="https://spline.design/u/seraphin" target="_blank" class="flex justify-center items-center">
                     <img src="/icons/techs/Spline.svg" alt="Spline"/>
