@@ -88,7 +88,7 @@ main.page {
   }
 
   #__nuxt {
-    @apply bg-blue-background flex flex-col;
+    @apply bg-oled-black flex flex-col;
     justify-content: space-between;
     height: auto;
     min-height: 100%;
