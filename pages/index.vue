@@ -37,7 +37,7 @@
 						=
 					</span>
 					<a class="string" :href="'https://github.com/' + config.contacts.social.github.user">
-						"https://github.com/{{ config.contacts.social.github.user }}"
+						"{{ isMobile ? '' : 'https://' }}github.com/{{ config.contacts.social.github.user }}"
 					</a>
 				</p>
 			</div>
