@@ -7,7 +7,12 @@
         <NuxtLink class="text-menu-text font-fira_retina flex h-full items-center mx-5" to="/" @click="goHome()">
           {{ config.logoName }}
         </NuxtLink>
-        <div id="lottie-mobile" ref="lottieContainerMobile"></div>
+        <div
+          id="lottie-mobile"
+          ref="lottieContainerMobile"
+          style="position: absolute; left: 3.5%; top: 50%; transform: translateY(-50%);"
+          speed: 0.1
+        ></div>
       </div>
       <img src="/icons/burger.svg" alt="Open menu" v-if="!menuOpen" @click="toggleMobileMenu()"
         class="w-5 h-5 mx-5 my-auto" />

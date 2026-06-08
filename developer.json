@@ -107,13 +107,13 @@
     },
     "projects": {
         "1": {
-            "title": "Crypto-Project",
-            "description": "A crypto project to understand how crypto works.",
-            "img": "/images/projects/crypto.avif",
+            "title": "Photography",
+            "description": "A photography project to understand how to use a Camera.",
+            "img": "/images/projects/poto.jpg",
             "tech": [
-                "Cursor"
+                "Sony"
             ],
-            "url": "https://github.com/SeraphinHaeuptli/The-Crypto-project"
+            "url": "https://www.instagram.com/de_seraa/"
         },
         "2": {
             "title": "Spline",
@@ -125,24 +125,6 @@
             "url": "https://github.com/SeraphinHaeuptli/Portfolio"
         },
         "3": {
-            "title": "TRYHACKME",
-            "description": "A course to understand how pentester think and how to break into a system.",
-            "img": "/images/projects/tryhackme.png",
-            "tech": [
-                "TryHackMe"
-            ],
-            "url": "https://tryhackme.com/"
-        },
-        "4": {
-            "title": "UI-Animations",
-            "description": "A UI animations project to understand how to use React.",
-            "img": "/images/projects/ui.webp",
-            "tech": [
-                "React"
-            ],
-            "url": "https://github.com/"
-        },
-        "5": {
             "title": "Tetris-Game",
             "description": "A tetris game project to understand how to use Flutter.",
             "img": "/images/projects/tetris-game.png",
@@ -151,14 +133,32 @@
             ],
             "url": "https://github.com/"
         },
-        "6": {
-            "title": "Photography",
-            "description": "A photography project to understand how to use a Camera.",
-            "img": "/images/projects/poto.jpg",
+        "4": {
+            "title": "UI-Animations",
+            "description": "A UI animations project to understand how to use React.",
+            "img": "/images/projects/ui.avif",
             "tech": [
-                "Sony"
+                "React"
             ],
-            "url": "https://www.instagram.com/de_seraa/"
+            "url": "https://github.com/"
+        },
+        "5": {
+            "title": "TRYHACKME",
+            "description": "A course to understand how pentester think and how to break into a system.",
+            "img": "/images/projects/tryhackme.png",
+            "tech": [
+                "TryHackMe"
+            ],
+            "url": "https://tryhackme.com/"
+        },
+        "6": {
+            "title": "Crypto-Project",
+            "description": "A crypto project to understand how crypto works.",
+            "img": "/images/projects/crypto.avif",
+            "tech": [
+                "Cursor"
+            ],
+            "url": "https://github.com/SeraphinHaeuptli/The-Crypto-project"
         }
     }
 }
