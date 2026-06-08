@@ -83,7 +83,7 @@ function handleResize() {
   height: 100%;
   width: 100%;
   flex: 1 1 auto;
-  padding-left: 275px;
+  padding-left: 200px;
   overflow: hidden;
 }
 .hero {

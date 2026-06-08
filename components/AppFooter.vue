@@ -10,9 +10,9 @@
                 <NuxtLink to="https://www.instagram.com/de_seraa/" target="_blank" class="flex justify-center items-center">
                     <img src="/icons/insta.svg" alt="instagram"/>
                 </NuxtLink>
-                <NuxtLink to="https://spline.design/u/seraphin" target="_blank" class="flex justify-center items-center">
-                    <img src="/icons/techs/Spline.svg" alt="Spline"/>
-                </NuxtLink>
+                <a href="mailto:seraphin@setsail.ch" target="_blank" class="flex justify-center items-center">
+                    <img src="/icons/email.svg" alt="Email"/>
+                </a>
                 <NuxtLink :to="social.github.url + social.github.user" target="_blank" class="flex md:hidden justify-center items-center">
                 <img src="/icons/social/github.svg" alt="github"/>
             </NuxtLink>
