@@ -16,9 +16,9 @@
                     </h3>
                 </div>
                 <div id="links">
-                    <div v-for="(source, key) in contact.direct.sources" :key="key" class="link">
+                    <div v-for="(source, key) in contacts.direct.sources" :key="key" class="link">
                         <img :src="'/icons/' + key + '.svg'" alt="">
-                        <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
+                        <a v-html="source" :href="getHref(key, source)" class="font-fira_retina text-menu-text hover:text-white"></a>
                     </div>
                 </div>
             </div>
@@ -32,8 +32,8 @@
                     </h3>
                 </div>
                 <div id="links">
-                    <div v-for="(source, key) in contact.find_me_also_in.sources" :key="key" class="link">
-                        <img src="/icons/link.svg" alt="">
+                    <div v-for="(source, key) in contacts.social" :key="key" class="link">
+                        <img :src="'/icons/social/' + key + '.svg'" alt="">
                         <a :href="source.url + source.user" class="font-fira_retina text-menu-text hover:text-white" target="_blank">{{ source.title }}</a>
                     </div>
                 </div>
@@ -96,10 +96,15 @@ export default {
             ]
         })
         return {
-            contact: DevConfig.contacts,
+            contacts: DevConfig.contacts,
         }
     },
     methods: {
+        getHref(key, value) {
+            if (key === 'email') return 'mailto:' + value
+            if (key === 'phone') return 'tel:' + value
+            return '#'
+        },
         open(elementId) {
             const element = document.getElementById(elementId);
             const arrow = element.querySelector('.arrow');

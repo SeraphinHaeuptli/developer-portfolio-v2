@@ -48,7 +48,7 @@
         <div id="contact-sources" class="hidden lg:flex lg:flex-col my-2">
           <div v-for="(source, key) in config.contacts.direct.sources" :key="key" class="flex items-center mb-2">
             <img :src="'/icons/' + key + '.svg'" alt="" class="mx-4">
-            <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
+            <a v-html="source" :href="getHref(key, source)" class="font-fira_retina text-menu-text hover:text-white"></a>
           </div>
         </div>
 
@@ -308,6 +308,11 @@ export default {
     },
   },
   methods: {
+    getHref(key, value) {
+      if (key === 'email') return 'mailto:' + value
+      if (key === 'phone') return 'tel:' + value
+      return '#'
+    },
     focusCurrentSection(section) {
       this.currentSection = section.title
       this.folder = Object.keys(section.info)[0]
