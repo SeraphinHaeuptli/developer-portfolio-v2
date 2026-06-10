@@ -1,4 +1,4 @@
-<template>
+<<template>
     <form id="contact-form" class="text-sm">
         <div class="flex flex-col">
             <label for="name-input" class="mb-3">_name:</label>
@@ -17,33 +17,41 @@
 </template>
 
 <script>
-
+import emailjs from '@emailjs/browser'
 
 export default {
     name: 'ContactForm',
     props: {
-        name: {
-            type: String,
-            required: true
-        },
-        email: {
-            type: String,
-            required: true
-        },
-        message: {
-            type: String,
-            required: true
-        }
+        name: { type: String, required: true },
+        email: { type: String, required: true },
+        message: { type: String, required: true }
     },
     mounted() {
-        document.getElementById("contact-form").addEventListener("submit", function(event) {
+        document.getElementById("contact-form").addEventListener("submit", (event) => {
             event.preventDefault();
+
             const name = document.querySelector('input[name="name"]').value;
             const email = document.querySelector('input[name="email"]').value;
             const message = document.querySelector('textarea[name="message"]').value;
-            
-            // Here the code to send the email
-            
+
+            emailjs.send(
+                'service_eh9kzri',    // 
+                'template_jyvfn6u',   // 
+                { name, email, message },
+                '6y2Dj5LqyeLXzhuh7'     // 
+            )
+            .then(() => alert('Message sent!'))
+            .catch(() => alert('Failed to send.'))
+        });
+
+        document.getElementById('name-input').addEventListener('input', (event) => {
+            this.$emit('update:name', event.target.value);
+        });
+        document.getElementById('email-input').addEventListener('input', (event) => {
+            this.$emit('update:email', event.target.value);
+        });
+        document.getElementById('message-input').addEventListener('input', (event) => {
+            this.$emit('update:message', event.target.value);
         });
     }
 }
